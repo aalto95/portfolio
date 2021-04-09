@@ -1,9 +1,10 @@
 import React from "react";
+import './Projects.module.css'
 
 const Projects = (props) => {
     return (
         <div>
-            yoooo
+            yoooo kiddo ldalsdlla
         </div>
     )
 }

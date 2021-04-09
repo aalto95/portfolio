@@ -1,0 +1,12 @@
+.nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #282c34;
+}
+
+.item {
+    color: #FFF;
+    text-decoration: none;
+}
