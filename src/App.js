@@ -6,7 +6,8 @@ import {BrowserRouter, Route} from "react-router-dom";
 import Projects from "./components/Projects/Projects";
 import Navbar from "./components/Navbar/Navbar";
 import Contacts from "./components/Contacts/Contacts"
-import Information from "./components/Information/Information";
+import Footer from "./components/Footer/Footer"
+import Home from "./components/Home/Home";
 
 const App = props => {
   return (
@@ -17,13 +18,11 @@ const App = props => {
           <Route path="/github"/>
           <Route path="/resume"/>
           <Route path="/projects"
-               render={ () => <Projects/>}/>
+               render={ () => <Projects state={props.state}/>}/>
           <Route path="/contacts"
                  render={ () => <Contacts/>}/>
-          <Route path="/" render={ () => <Information/>}/>
-
       </div>
-        {/*<Information />*/}
+        <Footer />
     </BrowserRouter>
   );
 }

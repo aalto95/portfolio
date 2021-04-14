@@ -1,6 +1,7 @@
 .nav {
     height: 10vh;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
     justify-content: space-around;
     align-items: center;
     background-color: #282c34;
