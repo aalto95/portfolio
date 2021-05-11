@@ -6,16 +6,10 @@ const Projects = (props) => {
     return (
         <div>
             <Project
-                techs={props.state.technologies.first}
-                name={props.state.projects.first.name}
-                img={props.state.projects.first.img}
-                info={props.state.projects.first.info}
+                state={props.projects[0]}
             />
             <Project
-                techs={props.state.technologies.second}
-                name={props.state.projects.second.name}
-                img={props.state.projects.second.img}
-                info={props.state.projects.second.info}
+                state={props.projects[1]}
             />
         </div>
     )

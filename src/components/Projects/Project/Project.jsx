@@ -3,12 +3,16 @@ import s from './../Projects.module.scss'
 import Technologies from "./Technologies/Technologies";
 
 const Project = (props) => {
-    let techElements = props.techs.map(tech => <Technologies name={tech.name} id={tech.id}/>)
+    let techs = props.state.technologies
+    let img = props.state.img
+    let info = props.state.info
+
+    let techElements = techs.map(tech => <Technologies name={tech.name} id={tech.id}/>)
     return (
         <section className={s.projectSection}>
-            <img src={props.img} className={s.projectImg}/>
+            <img src={img} className={s.projectImg}/>
             <div className={s.projectContext}>
-                <p className={s.projectInfo}>{props.info}</p>
+                <p className={s.projectInfo}>{info}</p>
                 <ul className={s.technologiesList}>
                     { techElements }
                 </ul>
