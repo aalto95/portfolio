@@ -16,6 +16,9 @@ li, h1, h2, p, a {
 }
 
 section {
-  height: 90vh;
   background-color: #393e48;
+}
+
+a {
+  text-decoration: none;
 }

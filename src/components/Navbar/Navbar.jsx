@@ -5,10 +5,10 @@ import s from './Navbar.module.css'
 const Navbar = props => {
     return (
         <nav className={s.nav}>
-            <NavLink to="/projects" className={s.item}>projects</NavLink>
-            <NavLink to="/contacts" className={s.item}>contacts</NavLink>
-            <NavLink to="/about" className={s.item}>about</NavLink>
-            <NavLink to="/resume" className={s.item}>resume</NavLink>
+            <a href="#projects" className={s.item}>projects</a>
+            <a href="#contacts" className={s.item}>contacts</a>
+            <a href="/about" className={s.item}>about</a>
+            <a href="/resume" className={s.item}>resume</a>
             <a href="https://github.com/y2k01" className={s.item}>github</a>
         </nav>
     )

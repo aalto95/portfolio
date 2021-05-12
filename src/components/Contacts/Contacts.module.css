@@ -1,5 +1,31 @@
 .contactSection {
-    display: grid;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
 }
+.contactSection .infoField {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 350px;
+  min-height: 70px;
+  background-color: #FFF;
+  margin: 5px;
+  color: blue;
+}
+.contactSection .infoField p, .contactSection .infoField a {
+  color: #393e48;
+}
+.contactSection .infoField a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactSection .infoField .icon {
+  width: 70px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=Contacts.module.css.map */

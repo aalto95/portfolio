@@ -1,8 +1,7 @@
 .main {
-    width: 100vw;
-    height: 90vh;
     background-color: #393e48;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }

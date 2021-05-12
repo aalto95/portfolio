@@ -8,21 +8,16 @@ import Navbar from "./components/Navbar/Navbar";
 import Contacts from "./components/Contacts/Contacts"
 import Footer from "./components/Footer/Footer"
 import ProjectsContainer from "./components/Projects/ProjectsContainer";
+import About from "./components/Home/About";
 
 const App = props => {
   return (
     <BrowserRouter>
       <Navbar />
-      <div>
-          <Route path="/about"/>
-          <Route path="/github"/>
-          <Route path="/resume"/>
-          <Route path="/projects"
-               render={ () => <ProjectsContainer store={props.store}/>}/>
-          <Route path="/contacts"
-                 render={ () => <Contacts/>}/>
-      </div>
-        <Footer />
+      <ProjectsContainer store={props.store}/>
+      <About />
+      <Contacts />
+      <Footer />
     </BrowserRouter>
   );
 }

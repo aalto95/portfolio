@@ -1,0 +1,35 @@
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    .infoField {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 350px;
+        min-height: 70px;
+        background-color: #FFF;
+        margin: 5px;
+        color: blue;
+        p, a {
+            color: #393e48;
+        }
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .icon {
+            width: 70px;
+            height: 40px;
+        }
+    }
+
+}
+
+
+
+
+
