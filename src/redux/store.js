@@ -7,6 +7,7 @@ let store = {
                 img: 'https://reactjsexample.com/content/images/2019/01/todo.jpg',
                 info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tenetur!" +
                     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tenetur!",
+                address: '',
                 technologies: [
                     { id: 0, name: 'JS' },
                     { id: 1, name: 'HTML' },
@@ -26,6 +27,7 @@ let store = {
                 name: 'Social Network',
                 img: 'https://www.instamobile.io/wp-content/uploads/2019/11/facebook-clone-app-cover-800x600.png',
                 info: '',
+                address: 'https://react-social-network-gules.vercel.app/',
                 technologies: [
                     { id: 0, name: 'JS' },
                     { id: 1, name: 'HTML' },

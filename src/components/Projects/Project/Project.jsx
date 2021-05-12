@@ -6,6 +6,7 @@ const Project = (props) => {
     let techs = props.state.technologies
     let img = props.state.img
     let info = props.state.info
+    let address = props.state.address
 
     let techElements = techs.map(tech => <Technologies name={tech.name} id={tech.id}/>)
     return (
@@ -18,7 +19,7 @@ const Project = (props) => {
                 </ul>
                 <div className={s.projectLinks}>
                     <a href="" className={s.projectLink}>SOURCE CODE</a>
-                    <a href="" className={s.projectLink}>VIEW SITE</a>
+                    <a href={address} className={s.projectLink}>VIEW SITE</a>
                 </div>
             </div>
         </section>
