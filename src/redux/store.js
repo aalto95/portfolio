@@ -26,7 +26,9 @@ let store = {
                 id: 1,
                 name: 'Social Network',
                 img: 'https://www.instamobile.io/wp-content/uploads/2019/11/facebook-clone-app-cover-800x600.png',
-                info: '',
+                info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tenetur!" +\n' +
+                    '                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tenetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tenetur!" +\n' +
+                    '                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tenetur!',
                 address: 'https://react-social-network-gules.vercel.app/',
                 technologies: [
                     { id: 0, name: 'JS' },

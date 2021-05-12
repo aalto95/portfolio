@@ -13,12 +13,9 @@ html {
 li, h1, h2, p, a {
   color: #FFF;
   font-family: Montserrat;
+  text-decoration: none;
 }
 
 section {
   background-color: #393e48;
-}
-
-a {
-  text-decoration: none;
 }

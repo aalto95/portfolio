@@ -1,8 +1,12 @@
-import React from "react";
-import {NavLink} from 'react-router-dom'
+import React, {createRef, useRef} from "react";
 import s from './Contacts.module.scss'
 import LinkedInIcon from "./LinkedInIcon";
 import MailIcon from "./MailIcon";
+import {CopyToClipboard} from "react-copy-to-clipboard/lib/Component";
+
+let getParagraphValue = () => {
+    return document.getElementById('mail')
+}
 
 const Contacts = props => {
     return (
@@ -16,17 +20,18 @@ const Contacts = props => {
             </div>
             <div className={s.infoField}>
                 <a href="mailto:scotlandfjord@protonmail.com">
-                    <p>scotlandfjord@protonmail.com</p>
+                    <p id='mail'>scotlandfjord@protonmail.com</p>
                     <MailIcon />
                 </a>
             </div>
             <div className={s.infoField}>
-                <a href="">
+                <CopyToClipboard className={s.copyButton} text='scotlandfjord@protonmail.com'>
                     <p>COPY</p>
-                </a>
+                </CopyToClipboard>
             </div>
         </section>
     )
 }
+console.log()
 
 export default Contacts
