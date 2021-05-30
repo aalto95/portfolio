@@ -13,7 +13,7 @@ const Contacts = props => {
         <section id='contacts' className={s.contactSection}>
             <h1>Get in touch</h1>
             <div className={s.infoField}>
-                <a href="">
+                <a href="https://www.linkedin.com/in/stanislav-pavlov-9776ba206/">
                     <p>LinkedIn</p>
                     <LinkedInIcon />
                 </a>
