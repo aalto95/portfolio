@@ -8,6 +8,7 @@
   .projectSection .projectImg {
     max-width: 90%;
     min-height: 500px;
+    max-height: 500px;
   }
   .projectSection .projectContext .projectInfo {
     font-size: 1rem;

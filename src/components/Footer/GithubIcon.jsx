@@ -1,8 +1,8 @@
-import s from './Footer.module.scss'
+import s from './Footer.module.css'
 
 const GithubIcon = () => {
     return (
-        <svg viewBox="0 0 512 512" className={s.icon}>
+        <svg viewBox="0 0 512 512" className={s.githubIcon}>
             <g>
                 <g>
                     <path d="M255.968,5.329C114.624,5.329,0,120.401,0,262.353c0,113.536,73.344,209.856,175.104,243.872
