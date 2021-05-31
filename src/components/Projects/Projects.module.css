@@ -1,4 +1,11 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 350px) {
+  .projectImg {
+    max-width: 90vw;
+    min-height: 500px;
+    max-height: 500px;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 1200px) {
   .projectSection {
     display: flex;
     justify-content: center;
@@ -6,7 +13,7 @@
     flex-direction: column;
   }
   .projectSection .projectImg {
-    max-width: 90%;
+    max-width: 300px;
     min-height: 500px;
     max-height: 500px;
   }
@@ -25,7 +32,8 @@
     justify-items: center;
     justify-content: center;
   }
-  .projectSection .projectImg {
+  .projectSection a .projectImg {
+    min-width: 300px;
     max-width: 300px;
     min-height: 500px;
   }
