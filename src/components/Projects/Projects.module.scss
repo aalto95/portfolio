@@ -61,9 +61,13 @@
   font-family: Montserrat;
   padding: 50px;
   .projectImg {
-
     object-fit: cover;
     border-radius: 30px;
+    transition: .5s;
+    &:hover {
+      transform: translateY(-20px);
+      transition: .5s;
+    }
   }
   .projectContext {
     display: flex;

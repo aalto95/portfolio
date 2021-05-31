@@ -4,7 +4,7 @@ let store = {
             {
                 id: 0,
                 name: 'To Do List',
-                img: 'https://reactjsexample.com/content/images/2019/01/todo.jpg',
+                img: 'https://sun9-3.userapi.com/impg/PGP1z8Aic9T2IhGt-8nGOvBCDQinRbvbHWKTNw/jGylwXVgV6o.jpg?size=490x784&quality=96&sign=fa0fc655178483f25c48f44cd2c90d39&type=album',
                 info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tenetur!" +
                     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tenetur!",
                 source: 'https://github.com/y2k01/todolist',
@@ -48,7 +48,7 @@ let store = {
             {
                 id: 2,
                 name: 'Grocery Store',
-                img: 'https://www.instamobile.io/wp-content/uploads/2019/11/facebook-clone-app-cover-800x600.png',
+                img: 'https://sun9-71.userapi.com/impg/HMKyeNoDHmM_LMmC6zqDhtFVKQfTEFlLxUrj0A/N6OS0vXv2ew.jpg?size=507x783&quality=96&sign=063538befdaa9e8a82685e1e3e0209fe&type=album',
                 info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tenetur!" +\n' +
                     '                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tenetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tenetur!" +\n' +
                     '                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tenetur!',

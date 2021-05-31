@@ -7,7 +7,6 @@ import {CopyToClipboard} from "react-copy-to-clipboard/lib/Component";
 let getParagraphValue = () => {
     return document.getElementById('mail')
 }
-
 const Contacts = props => {
     return (
         <section id='contacts' className={s.contactSection}>

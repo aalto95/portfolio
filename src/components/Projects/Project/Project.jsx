@@ -12,7 +12,10 @@ const Project = (props) => {
     let techElements = techs.map(tech => <Technologies name={tech.name} id={tech.id}/>)
     return (
         <section className={s.projectSection}>
-            <img src={img} className={s.projectImg}/>
+            <a href={address}>
+                <img src={img} className={s.projectImg}/>
+            </a>
+
             <div className={s.projectContext}>
                 <p className={s.projectInfo}>{info}</p>
                 <ul className={s.technologiesList}>

@@ -1,17 +1,52 @@
+@media screen and (max-width: 1200px) {
+  .projectSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .projectSection .projectImg {
+    max-width: 90%;
+    min-height: 500px;
+  }
+  .projectSection .projectContext .projectInfo {
+    font-size: 1rem;
+  }
+  .projectSection .projectContext .technologiesList {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .projectSection {
+    display: grid;
+    grid-template-columns: 30% 50%;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+  }
+  .projectSection .projectImg {
+    max-width: 300px;
+    min-height: 500px;
+  }
+  .projectSection .projectContext .projectInfo {
+    font-size: 1.5rem;
+  }
+  .projectSection .projectContext .technologiesList {
+    max-width: 70%;
+  }
+}
 .projectSection {
-  display: grid;
-  grid-template-columns: 30% 50%;
-  align-content: center;
-  justify-items: center;
-  justify-content: center;
   font-family: Montserrat;
   padding: 50px;
 }
 .projectSection .projectImg {
-  max-width: 300px;
-  min-height: 500px;
   object-fit: cover;
   border-radius: 30px;
+  transition: 0.5s;
+}
+.projectSection .projectImg:hover {
+  transform: translateY(-20px);
+  transition: 0.5s;
 }
 .projectSection .projectContext {
   display: flex;
@@ -19,23 +54,23 @@
   align-items: center;
 }
 .projectSection .projectContext .projectInfo {
-  font-size: 1.5rem;
+  max-width: 80%;
+  margin: 2em;
 }
 .projectSection .projectContext .technologiesList {
   display: flex;
-  max-width: 400px;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 10px;
+  margin: 0.5em;
 }
 .projectSection .projectContext .technologiesList .technology {
   display: flex;
   justify-content: center;
-  margin: 5px;
+  margin: 0.3em;
   list-style: none;
-  padding: 10px;
+  padding: 0.5em;
   background-color: #282c34;
-  border-radius: 10px;
+  border-radius: 0.5em;
 }
 .projectSection .projectContext .projectLinks {
   display: flex;
