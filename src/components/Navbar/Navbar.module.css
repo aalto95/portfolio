@@ -1,0 +1,25 @@
+.nav {
+  display: grid;
+  grid-template-rows: 10vh;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #282c34;
+}
+
+.item {
+  color: #FFF;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  transition: 0.5s;
+}
+.item:hover {
+  background-color: #FFF;
+  color: #000;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=Navbar.module.css.map */
