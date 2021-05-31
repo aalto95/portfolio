@@ -1,5 +1,5 @@
 import React from "react";
-import s from './../Projects.module.scss'
+import styles from './../Projects.module.scss'
 import Technologies from "./Technologies/Technologies";
 
 const Project = (props) => {
@@ -11,19 +11,19 @@ const Project = (props) => {
 
     let techElements = techs.map(tech => <Technologies name={tech.name} id={tech.id}/>)
     return (
-        <section className={s.projectSection}>
-            <a href={address}>
-                <img src={img} className={s.projectImg}/>
+        <section className={styles.projectSection}>
+            <a href={address} className={styles.imageLink}>
+                <img src={img} className={styles.projectImg}/>
             </a>
 
-            <div className={s.projectContext}>
-                <p className={s.projectInfo}>{info}</p>
-                <ul className={s.technologiesList}>
+            <div className={styles.projectContext}>
+                <p className={styles.projectInfo}>{info}</p>
+                <ul className={styles.technologiesList}>
                     { techElements }
                 </ul>
-                <div className={s.projectLinks}>
-                    <a href={source} className={s.projectLink}>SOURCE CODE</a>
-                    <a href={address} className={s.projectLink}>VIEW SITE</a>
+                <div className={styles.projectLinks}>
+                    <a href={source} className={styles.projectLink}>SOURCE CODE</a>
+                    <a href={address} className={styles.projectLink}>VIEW SITE</a>
                 </div>
             </div>
         </section>

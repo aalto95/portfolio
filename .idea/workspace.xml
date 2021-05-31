@@ -3,7 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c0c68beb-7bae-42f3-ac6c-7a0f24abacf9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/About.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/Project/Project.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Project/Project.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.module.scss" afterDir="false" />
@@ -75,7 +86,7 @@
       <workItem from="1620919491115" duration="55000" />
       <workItem from="1622341085784" duration="3233000" />
       <workItem from="1622371591331" duration="111000" />
-      <workItem from="1622463221728" duration="2419000" />
+      <workItem from="1622463221728" duration="7726000" />
     </task>
     <servers />
   </component>

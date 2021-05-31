@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Contacts from "./components/Contacts/Contacts"
 import Footer from "./components/Footer/Footer"
 import ProjectsContainer from "./components/Projects/ProjectsContainer";
-import About from "./components/Home/About";
+import About from "./components/About/About";
 
 const App = props => {
   return (

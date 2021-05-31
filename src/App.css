@@ -6,8 +6,8 @@
   box-sizing: border-box;
 }
 
-html {
-  background-color: black;
+body {
+  background-color: #393E48;
 }
 
 li, h1, h2, p, a {

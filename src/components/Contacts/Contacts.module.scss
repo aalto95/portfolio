@@ -1,36 +1,70 @@
-.contactSection {
+.contactWrapper {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    .infoField {
+    .contactSection {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        min-width: 350px;
-        min-height: 70px;
-        background-color: #FFF;
-        margin: 5px;
-        color: blue;
-        .copyButton:hover {
-            cursor: pointer;
+        border-top: 2px solid #282c34;
+        padding: 50px 0 50px 0;
+        h1 {
+            margin-bottom: 30px;
         }
-        p, a {
-            color: #393e48;
-        }
-        a {
+        .infoField {
             display: flex;
             justify-content: center;
             align-items: center;
-        }
-        .icon {
-            width: 70px;
-            height: 40px;
+
+            background-color: #FFF;
+            margin: 5px;
+            color: blue;
+            .copyButton:hover {
+                cursor: pointer;
+            }
+            p, a {
+                color: #393e48;
+            }
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
         }
     }
-
 }
+
+@media screen and (max-width: 400px) {
+    .contactSection {
+        max-width: 90vw;
+        .infoField {
+            min-width: 90vw;
+            min-height: 70px;
+            font-size: 0.8rem;
+            .icon {
+                width: 50px;
+                height: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 401px) {
+    .contactSection {
+        min-width: 80vw;
+        .infoField {
+            min-width: 350px;
+            min-height: 70px;
+            .icon {
+                width: 70px;
+                height: 40px;
+            }
+        }
+    }
+}
+
 
 
 

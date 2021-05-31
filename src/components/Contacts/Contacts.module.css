@@ -1,31 +1,65 @@
-.contactSection {
+.contactWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactWrapper .contactSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  border-top: 2px solid #282c34;
+  padding: 50px 0 50px 0;
 }
-.contactSection .infoField {
+.contactWrapper .contactSection h1 {
+  margin-bottom: 30px;
+}
+.contactWrapper .contactSection .infoField {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 350px;
-  min-height: 70px;
   background-color: #FFF;
   margin: 5px;
   color: blue;
 }
-.contactSection .infoField p, .contactSection .infoField a {
+.contactWrapper .contactSection .infoField .copyButton:hover {
+  cursor: pointer;
+}
+.contactWrapper .contactSection .infoField p, .contactWrapper .contactSection .infoField a {
   color: #393e48;
 }
-.contactSection .infoField a {
+.contactWrapper .contactSection .infoField a {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.contactSection .infoField .icon {
-  width: 70px;
-  height: 40px;
+
+@media screen and (max-width: 400px) {
+  .contactSection {
+    max-width: 90vw;
+  }
+  .contactSection .infoField {
+    min-width: 90vw;
+    min-height: 70px;
+    font-size: 0.8rem;
+  }
+  .contactSection .infoField .icon {
+    width: 50px;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 401px) {
+  .contactSection {
+    min-width: 80vw;
+  }
+  .contactSection .infoField {
+    min-width: 350px;
+    min-height: 70px;
+  }
+  .contactSection .infoField .icon {
+    width: 70px;
+    height: 40px;
+  }
 }
 
 /*# sourceMappingURL=Contacts.module.css.map */
