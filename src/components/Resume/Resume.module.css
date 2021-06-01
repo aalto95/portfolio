@@ -1,3 +1,65 @@
+.resumeWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resumeWrapper .resumeSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top: 2px solid #282c34;
+  padding: 50px 0 50px 0;
+}
+.resumeWrapper .resumeSection h2 {
+  margin-bottom: 30px;
+}
+.resumeWrapper .resumeSection .linkBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resumeWrapper .resumeSection .linkBlock .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #282c34;
+  margin: 0.5rem;
+  transition: 0.5s;
+}
+.resumeWrapper .resumeSection .linkBlock .link:hover {
+  background-color: #000;
+  transition: 0.5s;
+  border: 2px solid #000;
+}
 
+@media screen and (max-width: 500px) {
+  .resumeSection {
+    width: 90vw;
+  }
+
+  .linkText {
+    font-size: 0.8rem;
+  }
+
+  .link {
+    padding: 0.5rem;
+  }
+  .link .linkIcon {
+    width: 20px;
+  }
+}
+@media screen and (min-width: 501px) {
+  .resumeSection {
+    width: 80vw;
+  }
+
+  .link {
+    padding: 1rem;
+  }
+  .link .linkIcon {
+    width: 30px;
+  }
+}
 
 /*# sourceMappingURL=Resume.module.css.map */

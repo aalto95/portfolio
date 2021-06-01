@@ -1,5 +1,3 @@
-import 'firebase/auth'
-import 'firebase/firestore'
 import './App.css';
 import './components/Projects/Projects'
 import './components/Navbar/Navbar'
@@ -18,7 +16,7 @@ const App = props => {
             <ProjectsContainer store={props.store}/>
             <About/>
             <Contacts/>
-            <Resume />
+            <Resume/>
             <Footer/>
         </BrowserRouter>
     );

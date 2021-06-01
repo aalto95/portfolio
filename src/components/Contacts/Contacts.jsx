@@ -9,8 +9,8 @@ let getParagraphValue = () => {
 }
 const Contacts = props => {
     return (
-        <section id='contacts' className={styles.contactWrapper}>
-            <div className={styles.contactSection}>
+        <div id='contacts' className={styles.contactWrapper}>
+            <section className={styles.contactSection}>
                 <h1>Get in touch</h1>
                 <div className={styles.infoField}>
                     <a href="https://www.linkedin.com/in/stanislav-pavlov-9776ba206/">
@@ -29,8 +29,8 @@ const Contacts = props => {
                         <p>COPY</p>
                     </CopyToClipboard>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     )
 }
 console.log()

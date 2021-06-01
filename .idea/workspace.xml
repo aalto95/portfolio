@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0c68beb-7bae-42f3-ac6c-7a0f24abacf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Resume/Resume.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Resume/Resume.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/GithubIcon.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Resume/Resume.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Resume/Resume.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Resume/Resume.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Resume/Resume.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Resume/Resume.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Resume/Resume.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Resume/Resume.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Resume/Resume.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +85,8 @@
       <workItem from="1620919491115" duration="55000" />
       <workItem from="1622341085784" duration="3233000" />
       <workItem from="1622371591331" duration="111000" />
-      <workItem from="1622463221728" duration="10361000" />
+      <workItem from="1622463221728" duration="10388000" />
+      <workItem from="1622513701636" duration="2568000" />
     </task>
     <servers />
   </component>

@@ -1,12 +1,12 @@
 import styles from './Footer.module.css'
-import GithubIcon from "./GithubIcon";
+import githubIcon from "./../../assets/github.png";
 
 const Footer = props => {
     return (
         <div className={styles.footer}>
             <a className={styles.github} href="https://github.com/y2k01">
-                <h1>Stas Pavlov</h1>
-                <GithubIcon />
+                <h2>Stas Pavlov</h2>
+                <img src={githubIcon} alt="" className={styles.githubIcon}/>
             </a>
         </div>
     )
