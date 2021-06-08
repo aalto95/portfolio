@@ -5,8 +5,7 @@ let store = {
                 id: 0,
                 name: 'To Do List',
                 img: 'https://sun9-3.userapi.com/impg/PGP1z8Aic9T2IhGt-8nGOvBCDQinRbvbHWKTNw/jGylwXVgV6o.jpg?size=490x784&quality=96&sign=fa0fc655178483f25c48f44cd2c90d39&type=album',
-                info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tenetur!" +
-                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tenetur!",
+                info: "Created using React library. As the name implies, To-Do List allows user to create tasks for themselves which they can then mark as completed and delete. This app also uses REST API. The actions done by user create a request to a remote API named mockapi.io. Almost all C.R.U.D (besides Update) actions can be performed in this app.",
                 source: 'https://github.com/y2k01/todolist',
                 address: 'https://todolist-23dgks0r1-y2k01.vercel.app/',
                 technologies: [
