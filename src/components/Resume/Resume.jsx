@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './Resume.module.css'
-import externalLinkIcon from './../../assets/external-link.png'
-import downloadIcon from './../../assets/download.png'
+import externalLinkIcon from '../../assets/icons/external-link.png'
+import downloadIcon from '../../assets/icons/download.png'
 
 const Resume = props => {
     return (

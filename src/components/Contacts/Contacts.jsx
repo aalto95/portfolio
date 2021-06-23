@@ -26,7 +26,7 @@ const Contacts = props => {
                 </div>
                 <div className={styles.infoField}>
                     <CopyToClipboard className={styles.copyButton} text='scotlandfjord@protonmail.com'>
-                        <p>COPY</p>
+                        <p>COPY EMAIL TO CLIPBOARD</p>
                     </CopyToClipboard>
                 </div>
             </section>
