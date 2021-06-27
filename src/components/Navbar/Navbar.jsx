@@ -7,7 +7,7 @@ const Navbar = props => {
             <a href="#projects" className={styles.item}>projects</a>
             <a href="#contacts" className={styles.item}>contacts</a>
             <a href="#about" className={styles.item}>about</a>
-            <a href="/resume" className={styles.item}>resume</a>
+            <a href="#resume" className={styles.item}>resume</a>
             <a href="https://github.com/y2k01" className={styles.item}>github</a>
         </nav>
     )

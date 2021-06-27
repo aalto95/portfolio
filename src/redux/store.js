@@ -33,8 +33,8 @@ let store = {
                 name: 'Administrative divisions of Estonia',
                 img: mapPreview,
                 info: 'This is map that shows all counties of Estonia. The client fetches data from a remote API and puts it in the table down below the map. This project was interesting to do. I have learnt a lot about SVG and also it was my first RESTful application.',
-                source: 'https://github.com/y2k01/react-social-network',
-                address: 'https://react-social-network-gules.vercel.app/',
+                source: 'https://github.com/y2k01/administrative-divisions-of-estonia',
+                address: 'https://administrative-divisions-of-estonia.vercel.app/',
                 technologies: [
                     { id: 0, name: 'JS' },
                     { id: 1, name: 'HTML' },

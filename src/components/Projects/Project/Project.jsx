@@ -9,11 +9,11 @@ const Project = (props) => {
     let source = props.state.source
     let address = props.state.address
 
-    let techElements = techs.map(tech => <Technologies name={tech.name} id={tech.id}/>)
+    let techElements = techs.map(tech => <Technologies name={tech.name} id={tech.id} key={tech.id}/>)
     return (
         <section className={styles.projectSection}>
             <a href={address} className={styles.imageLink}>
-                <img src={img} className={styles.projectImg}/>
+                <img src={img} className={styles.projectImg} alt="project-img"/>
             </a>
 
             <div className={styles.projectContext}>

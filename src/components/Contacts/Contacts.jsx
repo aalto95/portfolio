@@ -1,12 +1,9 @@
-import React, {createRef, useRef} from "react";
+import React from "react";
 import styles from './Contacts.module.scss'
 import LinkedInIcon from "./LinkedInIcon";
 import MailIcon from "./MailIcon";
 import {CopyToClipboard} from "react-copy-to-clipboard/lib/Component";
 
-let getParagraphValue = () => {
-    return document.getElementById('mail')
-}
 const Contacts = props => {
     return (
         <div id='contacts' className={styles.contactWrapper}>
