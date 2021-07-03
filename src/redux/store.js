@@ -11,7 +11,7 @@ let store = {
                 img: todolistPreview,
                 info: `Created using React library. As the name implies, To-Do List allows user to create tasks for themselves which they can then mark as completed and delete. This app also uses REST API. The actions done by user create a request to a remote API named mockapi.io. Almost all C.R.U.D (besides Update) actions can be performed in this app.`,
                 source: 'https://github.com/y2k01/todolist',
-                address: 'https://todolist-23dgks0r1-y2k01.vercel.app/',
+                address: 'https://todolist-y2k01.vercel.app/',
                 technologies: [
                     { id: 0, name: 'JS' },
                     { id: 1, name: 'HTML' },
