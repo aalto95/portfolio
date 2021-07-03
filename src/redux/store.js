@@ -53,11 +53,11 @@ let store = {
             },
             {
                 id: 2,
-                name: 'Grocery Store',
+                name: 'Clothing Store',
                 img: storePreview,
                 info: 'This is so far my most ambitious project. I am planning to build a fully working online clothing store. I am currently working on the frontend and using free API. As soon as I am done with the frontend I am going to start creating my own API. Right now you can search for items and put them in the cart. I am working on this project almost everyday and planning to defend a thesis with this project.',
                 source: 'https://github.com/y2k01/react-grocery-store',
-                address: 'https://react-grocery-store-sigma.vercel.app/',
+                address: 'https://clothing-shop-y2k01.vercel.app/',
                 technologies: [
                     { id: 0, name: 'JS' },
                     { id: 1, name: 'HTML' },
