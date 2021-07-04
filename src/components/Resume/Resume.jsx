@@ -10,7 +10,7 @@ const Resume = props => {
             <section className={styles.resumeSection}>
                 <h2>Resume</h2>
                 <div className={styles.linkBlock}>
-                    <a href="https://drive.google.com/file/d/1OG-rULBRuMy8cq4a0rsxkfuJMQa-opNA/view" className={styles.link}>
+                    <a href="https://drive.google.com/file/d/1KBTidJzFg76S3ny3Qns9VLgSIrOiSc_3/view?usp=sharing" className={styles.link}>
                         <p className={styles.linkText}>View online</p>
                         <img src={externalLinkIcon} alt="linkIcon" className={styles.linkIcon}/>
                     </a>
