@@ -3,6 +3,7 @@ import styles from './../Projects.module.scss'
 import Technologies from "./Technologies/Technologies";
 
 const Project = (props) => {
+    let name = props.state.name
     let techs = props.state.technologies
     let img = props.state.img
     let info = props.state.info
@@ -17,6 +18,7 @@ const Project = (props) => {
             </a>
 
             <div className={styles.projectContext}>
+                <h1>{name}</h1>
                 <p className={styles.projectInfo}>{info}</p>
                 <ul className={styles.technologiesList}>
                     { techElements }

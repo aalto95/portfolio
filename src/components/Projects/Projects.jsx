@@ -7,6 +7,7 @@ const Projects = (props) => {
             <Project state={props.projects[0]}/>
             <Project state={props.projects[1]}/>
             <Project state={props.projects[2]}/>
+            <Project state={props.projects[3]}/>
         </div>
     )
 }
