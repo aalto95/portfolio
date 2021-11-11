@@ -1,7 +1,7 @@
 import './App.css';
 import './components/Projects/Projects'
-import './components/Navbar/Navbar'
-import Navbar from "./components/Navbar/Navbar";
+import './components/Navbar'
+import Navbar from "./components/Navbar";
 import Contacts from "./components/Contacts/Contacts"
 import Footer from "./components/Footer/Footer"
 import ProjectsContainer from "./components/Projects/ProjectsContainer";
