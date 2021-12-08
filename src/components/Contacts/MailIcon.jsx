@@ -1,6 +1,4 @@
-import s from './Contacts.module.scss'
-
-const MainIcon = () => {
+const MainIcon = ({className}) => {
     return (
         <svg version="1.1"
              id="Capa_1"
@@ -9,7 +7,7 @@ const MainIcon = () => {
              x="0px" y="0px"
              viewBox="0 0 512 512"
              xmlSpace="preserve"
-             className={s.icon}
+             className={className}
         >
             <g>
                 <g>
