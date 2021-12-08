@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -7,11 +7,15 @@
 }
 
 body {
-  background-color: #393E48;
+  background-color: #393e48;
 }
 
-li, h1, h2, p, a {
-  color: #FFF;
+li,
+h1,
+h2,
+p,
+a {
+  color: #fff;
   font-family: Montserrat;
   text-decoration: none;
 }

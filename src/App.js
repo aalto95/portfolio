@@ -2,7 +2,7 @@ import './App.css';
 import './components/Projects/Projects'
 import './components/Navbar'
 import Navbar from "./components/Navbar";
-import Contacts from "./components/Contacts/Contacts"
+import Contacts from "./components/Contacts"
 import Footer from "./components/Footer"
 import ProjectsContainer from "./components/Projects/ProjectsContainer";
 import About from "./components/About";
