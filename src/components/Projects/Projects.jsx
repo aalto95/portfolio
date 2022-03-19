@@ -4,7 +4,7 @@ import Project from "./Project/Project";
 const Projects = (props) => {
     return (
         <>
-            {props.projects.map((project) => <Project state={project}/>)}
+            {props.projects.map((project) => <Project key={project.id} state={project}/>)}
         </>
     )
 }
