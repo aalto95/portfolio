@@ -6,7 +6,7 @@ const Navbar = props => {
         {href: '#contacts', title: 'contacts'},
         {href: '#about', title: 'about'},
         {href: '#resume', title: 'resume'},
-        {href: 'https://github.com/y2k01', title: 'github'},
+        {href: 'https://github.com/aaltoo', title: 'github'},
     ])
     return (
         <nav className={'grid grid-cols-5 h-14 2xl:h-32 xl:h-28 lg:h-24 md:h-20 sm:h-16 bg-darkgray'}>

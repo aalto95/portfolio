@@ -1,7 +1,6 @@
 import React from "react";
 import externalLinkIcon from '../assets/icons/external-link.png'
-import downloadIcon from '../assets/icons/download.png'
-import resume from '../assets/resume.pdf'
+
 
 const Resume = props => {
     return (
@@ -12,10 +11,6 @@ const Resume = props => {
                     <a href="https://docs.google.com/document/d/1DkuV3yF5Khfrxrt7gbNMhiPgxc-cz9UvSluiw-9vI7E/edit?usp=sharing" className={'flex justify-center items-center border-2 border-solid border-darkgray m-0.5 p-2'}>
                         <p>View online</p>
                         <img src={externalLinkIcon} alt="linkIcon" className={'w-8'}/>
-                    </a>
-                    <a href={resume} download className={'flex justify-center items-center border-2 border-solid border-darkgray m-0.5 p-2'}>
-                        <p>Download PDF</p>
-                        <img src={downloadIcon} alt="download-icon" className={'w-8'}/>
                     </a>
                 </div>
             </section>
