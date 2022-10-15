@@ -1,24 +1,22 @@
-import './App.css';
-import './components/Projects/Projects'
-import './components/Navbar'
+import "./App.css";
 import Navbar from "./components/Navbar";
-import Contacts from "./components/Contacts"
-import Footer from "./components/Footer"
-import ProjectsContainer from "./components/Projects/ProjectsContainer";
+import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
+import Projects from "./components/Projects/Projects";
 import About from "./components/About";
 import Resume from "./components/Resume";
 
-const App = props => {
-    return (
-        <div className='App'>
-            <Navbar/>
-            <ProjectsContainer store={props.store}/>
-            <About/>
-            <Contacts/>
-            <Resume/>
-            <Footer/>
-        </div>
-    )
-}
+const App = () => {
+  return (
+    <div className="App">
+      <Navbar />
+      <Projects />
+      <About />
+      <Contacts />
+      <Resume />
+      <Footer />
+    </div>
+  );
+};
 
 export default App;
