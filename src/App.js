@@ -1,10 +1,10 @@
 import "./App.css";
-import "./components/Projects/Projects";
+import "./components/projects/Projects";
 import "./components/Navbar";
 import Navbar from "./components/Navbar";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
-import Projects from "./components/Projects/Projects";
+import Projects from "./components/projects/Projects";
 import About from "./components/About";
 import Resume from "./components/Resume";
 
