@@ -1,17 +1,6 @@
 import React from "react";
-import Technologies from "./Technologies/Technologies";
 
-const Project = (props) => {
-  let name = props.state.name;
-  let techs = props.state.technologies;
-  let img = props.state.img;
-  let info = props.state.info;
-  let source = props.state.source;
-  let address = props.state.address;
-
-  let techElements = techs.map((tech) => (
-    <Technologies name={tech.name} id={tech.id} key={tech.id} />
-  ));
+const Project = ({ name, technologies, img, info, source, address }) => {
   return (
     <section className="flex justify-center items-center flex-col xl:grid xl:grid-cols-12 grid:content-center grid:items-center grid:justify-center my-20 md:mx-20">
       <a href={address} className="flex justify-center mb-4 col-span-4">
@@ -25,7 +14,11 @@ const Project = (props) => {
         <h1 className="text-3xl font-bold">{name}</h1>
         <p className="sm:mx-20 text-xl sm:text-2xl m-8">{info}</p>
         <ul className="flex flex-wrap justify-center sm:mx-20">
-          {techElements}
+          {technologies.map((tech) => (
+            <li className="flex justify-center m-1 list-none p-2 bg-gray-800 rounded-xl">
+              {tech.name}
+            </li>
+          ))}
         </ul>
         <div className="flex justify-center">
           <a
