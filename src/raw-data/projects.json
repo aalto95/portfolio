@@ -73,7 +73,7 @@
     {
       "id": 3,
       "name": "Weather app",
-      "img": "weather-preview.png",
+      "img": "assets/weather-preview.png",
       "info": "It is an app that uses open weather API. You can type in the name of the city and then see the results of a search. info like temperature, humidity etc. is available in the server response.",
       "source": "https://github.com/aaltoo/weather-checker",
       "address": "https://weather-checker.vercel.app/",
