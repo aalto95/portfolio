@@ -2,6 +2,7 @@ import React from "react";
 import LinkedInIcon from "./icons/LinkedInIcon";
 import MailIcon from "./icons/MailIcon";
 import { CopyToClipboard } from "react-copy-to-clipboard/lib/Component";
+import { TelegramIcon } from "./icons/TelegramIcon";
 
 const Contacts = () => {
   return (
@@ -14,6 +15,13 @@ const Contacts = () => {
         >
           <p className="mr-2 text-black text-sm">LinkedIn</p>
           <LinkedInIcon className="w-8 h-8" />
+        </a>
+        <a
+          href="https://t.me/scotlandfjord"
+          className="h-14 w-72 md:w-96 bg-white flex justify-center items-center mb-2"
+        >
+          <p className="mr-2 text-black text-sm">Telegram</p>
+          <TelegramIcon className="w-8 h-8" />
         </a>
         <a
           href="mailto:scotlandfjord@protonmail.com"

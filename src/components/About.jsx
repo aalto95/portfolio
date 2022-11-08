@@ -13,8 +13,8 @@ const About = () => {
             project.
           </p>
           <p className="m-4">
-            When I'm not coding I enjoy taking walks, playing video games, and
-            helping people online with their web development problems.
+            In my free time I enjoy learning new technologies, playing computer
+            games and helping people online with their web development problems.
           </p>
         </div>
       </section>
