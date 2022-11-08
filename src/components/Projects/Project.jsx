@@ -15,7 +15,10 @@ const Project = ({ name, technologies, img, info, source, address }) => {
         <p className="sm:mx-20 text-xl sm:text-2xl m-8">{info}</p>
         <ul className="flex flex-wrap justify-center sm:mx-20">
           {technologies.map((tech) => (
-            <li className="flex justify-center m-1 list-none p-2 bg-gray-800 rounded-xl">
+            <li
+              key={tech.name}
+              className="flex justify-center m-1 list-none p-2 bg-gray-800 rounded-xl"
+            >
               {tech.name}
             </li>
           ))}

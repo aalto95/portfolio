@@ -6,7 +6,7 @@
       "img": "assets/todolist-preview.png",
       "info": "Created using React library. As the name implies, To-Do List allows user to create tasks for themselves which they can then mark as completed and delete. This app also uses REST API. The actions done by user create a request to a remote API named mockapi.io. All C.R.U.D actions can be performed in this app.",
       "source": "https://github.com/aaltoo/todolist",
-      "address": "https://todolist-y2k01.vercel.app/",
+      "address": "https://public-todolist.vercel.app/",
       "technologies": [
         { "id": 0, "name": "JS" },
         { "id": 1, "name": "HTML" },
@@ -25,11 +25,11 @@
     },
     {
       "id": 1,
-      "name": "Divisions of Estonia",
+      "name": "Map of the Baltic States",
       "img": "assets/map-preview.png",
       "info": "This is map that shows all counties of Estonia. The client fetches data from a remote API and puts it in the table down below the map. This project was interesting to do. I have learnt a lot about SVG and also it was my first RESTful application.",
-      "source": "https://github.com/aaltoo/administrative-divisions-of-estonia",
-      "address": "https://administrative-divisions-of-estonia.vercel.app/",
+      "source": "https://github.com/aaltoo/baltic-states-interactive-map",
+      "address": "https://baltic-states-map.vercel.app/",
       "technologies": [
         { "id": 0, "name": "JS" },
         { "id": 1, "name": "HTML" },
@@ -52,7 +52,7 @@
       "img": "assets/store-preview.png",
       "info": "This is so far my most ambitious project. I am planning to build a fully working online clothing store. I am currently working on the frontend and using free API. As soon as I am done with the frontend I am going to start creating my own API. Right now you can search for items and put them in the cart. I am working on this project almost everyday and planning to defend a thesis with this project.",
       "source": "https://github.com/aaltoo/clothing-shop-client",
-      "address": "https://clothing-shop-y2k01.vercel.app/",
+      "address": "https://based-clothing-shop.vercel.app/",
       "technologies": [
         { "id": 0, "name": "JS" },
         { "id": 1, "name": "HTML" },
@@ -75,8 +75,8 @@
       "name": "Weather app",
       "img": "assets/weather-preview.png",
       "info": "It is an app that uses open weather API. You can type in the name of the city and then see the results of a search. info like temperature, humidity etc. is available in the server response.",
-      "source": "https://github.com/aaltoo/weather-checker",
-      "address": "https://weather-checker.vercel.app/",
+      "source": "https://github.com/aaltoo/weathered",
+      "address": "https://weathered.vercel.app/",
       "technologies": [
         { "id": 0, "name": "JS" },
         { "id": 1, "name": "HTML" },
