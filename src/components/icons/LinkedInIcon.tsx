@@ -1,4 +1,6 @@
-const LinkedInIcon = ({ className }) => {
+import React from "react";
+
+const LinkedInIcon: React.FC<{ className: string }> = ({ className }) => {
   return (
     <svg
       className={className}
