@@ -7,7 +7,7 @@ const Project: React.FC<{ project: ProjectModel }> = ({ project }) => {
       <a href={project.address} className="flex justify-center mb-4 col-span-4">
         <img
           src={project.img}
-          className="w-90vw h-500px usm:w-300px rounded-xl transition duration-500 object-cover transform hover:-translate-y-5"
+          className="w-80 h-140 rounded-xl transition duration-500 object-cover transform hover:-translate-y-5"
           alt="project-img"
         />
       </a>

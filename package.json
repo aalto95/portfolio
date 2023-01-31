@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^6.4.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -43,10 +42,10 @@
   "devDependencies": {
     "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^3.0.1",
-    "autoprefixer": "^9",
     "postcss": "^7",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "vite": "^4.0.4",
-    "vite-tsconfig-paths": "^4.0.5"
+    "vite-plugin-windicss": "^1.8.10",
+    "vite-tsconfig-paths": "^4.0.5",
+    "windicss": "^3.5.6"
   }
 }
