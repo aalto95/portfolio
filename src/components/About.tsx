@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+const About: React.FC = () => {
   return (
     <div id="about">
       <section className="flex justify-center flex-col items-center flex-column pr-10 pl-10">

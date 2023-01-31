@@ -1,10 +1,15 @@
 import React from "react";
 import LinkedInIcon from "./icons/LinkedInIcon";
 import MailIcon from "./icons/MailIcon";
-import { CopyToClipboard } from "react-copy-to-clipboard/lib/Component";
 import { TelegramIcon } from "./icons/TelegramIcon";
 
-const Contacts = () => {
+const Contacts: React.FC = () => {
+  const [email] = React.useState("scotlandfjord@protonmail.com");
+
+  function copyToClipboard() {
+    navigator.clipboard.writeText(email);
+  }
+
   return (
     <div id="contacts" className="flex justify-center items-center m-10">
       <section className="flex flex-col justify-center items-center border-t-2 w-5/6 border-darkgray">
@@ -28,21 +33,14 @@ const Contacts = () => {
           className="h-14 w-72 md:w-96 bg-white flex justify-center items-center mb-2"
         >
           <p className="mr-2 text-black text-sm" id="mail">
-            scotlandfjord@protonmail.com
+            {email}
           </p>
           <MailIcon className="w-8 h-8" />
         </a>
-        <button
-          onClick={() => {
-            alert("Email was copied to clipboard!");
-          }}
-        >
-          <CopyToClipboard
-            className="h-14 w-72 md:w-96 bg-black flex justify-center items-center"
-            text="scotlandfjord@protonmail.com"
-          >
-            <p className="mr-2 text-black text-sm">COPY EMAIL TO CLIPBOARD</p>
-          </CopyToClipboard>
+        <button onClick={copyToClipboard}>
+          <div className="h-14 w-72 md:w-96 bg-black flex justify-center items-center">
+            <p className="mr-2 text-white text-sm">COPY EMAIL TO CLIPBOARD</p>
+          </div>
         </button>
       </section>
     </div>

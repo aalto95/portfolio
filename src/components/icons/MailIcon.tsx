@@ -1,4 +1,6 @@
-const MainIcon = ({ className }) => {
+import React from "react";
+
+const MainIcon: React.FC<{ className: string }> = ({ className }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

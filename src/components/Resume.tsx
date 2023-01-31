@@ -1,7 +1,7 @@
 import React from "react";
 import externalLinkIcon from "../assets/icons/external-link.png";
 
-const Resume = () => {
+const Resume: React.FC = () => {
   return (
     <div className="flex justify-center items-center m-10" id="resume">
       <section className="flex-col w-5/6 justify-center items-center border-t-2 border-solid border-darkgray">

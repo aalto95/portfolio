@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   const [data] = useState([
     { href: "#projects", title: "projects" },
     { href: "#contacts", title: "contacts" },

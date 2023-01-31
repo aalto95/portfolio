@@ -1,6 +1,7 @@
+import React from "react";
 import githubIcon from "../assets/icons/github.png";
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <div className="bg-black flex justify-center items-center h-24">
       <a className="flex items-center" href="https://github.com/aaltoo">
