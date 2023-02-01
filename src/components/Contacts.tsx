@@ -1,4 +1,4 @@
-import React from "react";
+import React, { MouseEvent } from "react";
 import LinkedInIcon from "./icons/LinkedInIcon";
 import MailIcon from "./icons/MailIcon";
 import { TelegramIcon } from "./icons/TelegramIcon";
@@ -6,36 +6,35 @@ import { TelegramIcon } from "./icons/TelegramIcon";
 const Contacts: React.FC = () => {
   const [email] = React.useState("scotlandfjord@protonmail.com");
   const [telegramNickname] = React.useState("");
-  function copyToClipboard() {
+  function copyToClipboard(e: MouseEvent) {
+    const target = e.currentTarget as HTMLButtonElement;
+    target.blur();
     navigator.clipboard.writeText(email);
   }
 
   return (
-    <div
-      id="contacts"
-      w-display="flex"
-      w-justify="center"
-      w-items="center"
-      w-m="10"
-    >
+    <div w-display="flex" w-justify="center" w-items="center">
       <section
+        id="contacts"
         w-display="flex"
         w-justify="center"
         w-items="center"
         w-flex="col"
         w-border="t-2 darkgray"
-        w-w="5/6"
+        w-w="full sm:4/6"
+        w-mx="4"
+        w-mt="10"
       >
-        <h1 w-text="3xl center" w-font="bold" w-m="10">
+        <h1 w-text="3xl center" w-font="bold" w-mb="4" w-mt="10">
           Get in touch
         </h1>
         <a
           w-display="flex"
           w-justify="center"
           w-items="center"
-          w-h="14"
-          w-w="72 md:96"
-          w-bg="white focus:gray-200"
+          w-min-h="14"
+          w-w="full sm:72 md:96"
+          w-bg="white focus:gray-200 hover:gray-200"
           w-mb="2"
           href="https://www.linkedin.com/in/stanislav-pavlov-9776ba206/"
         >
@@ -49,7 +48,7 @@ const Contacts: React.FC = () => {
           w-justify="center"
           w-items="center"
           w-h="14"
-          w-w="72 md:96"
+          w-w="full sm:72 md:96"
           w-mb="2"
           w-bg="white"
           href={"https://t.me/" + telegramNickname}
@@ -63,10 +62,10 @@ const Contacts: React.FC = () => {
           w-display="flex"
           w-justify="center"
           w-items="center"
-          w-h="14"
-          w-w="72 md:96"
+          w-min-h="14"
+          w-w="full sm:72 md:96"
           w-mb="2"
-          w-bg="white focus:gray-200"
+          w-bg="white focus:gray-200 hover:gray-200"
           href={"mailto:" + email}
         >
           <p className="mr-2 text-black text-sm" id="mail">
@@ -75,13 +74,13 @@ const Contacts: React.FC = () => {
           <MailIcon className="w-8 h-8" />
         </a>
         <button
-          onClick={copyToClipboard}
+          onClick={(e) => copyToClipboard(e)}
           w-display="flex"
           w-justify="center"
           w-items="center"
-          w-h="14"
-          w-w="72 md:96"
-          w-bg="black focus:gray-900"
+          w-min-h="14"
+          w-w="full sm:72 md:96"
+          w-bg="black focus:gray-900 hover:gray-900"
         >
           <p w-mr="2" w-text="white sm">
             COPY EMAIL TO CLIPBOARD

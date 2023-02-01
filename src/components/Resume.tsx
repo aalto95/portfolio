@@ -7,13 +7,14 @@ const Resume: React.FC = () => {
       w-display="flex"
       w-justify="center"
       w-items="center"
-      w-m="10"
+      w-my="10"
       id="resume"
     >
       <section
         w-items="center"
         w-justify="center"
-        w-w="5/6"
+        w-w="full sm:4/6"
+        w-mx="4"
         w-flex="col"
         w-border="t-2 solid darkgray"
       >

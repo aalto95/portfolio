@@ -13,17 +13,19 @@ const Project: React.FC<{ project: ProjectModel }> = ({ project }) => {
       w-grid="cols-12"
     >
       <a
-        w-w="80"
-        w-h="140"
         w-mb="4"
         w-grid="col-span-4"
         w-display="flex"
         w-justify="center"
         w-transform="transform duration-500 hover:-translate-y-5 focus:-translate-y-5"
         w-outline="none"
+        w-mx="4"
         href={project.address}
       >
         <img
+          w-w="md:80"
+          w-min-w="40"
+          w-h="100 sm:120 md:140"
           w-border="rounded-xl"
           w-object="cover"
           src={project.img}
@@ -36,10 +38,10 @@ const Project: React.FC<{ project: ProjectModel }> = ({ project }) => {
         w-align="center"
         className=" col-span-8"
       >
-        <h1 w-text="3xl center" w-font="bold">
+        <h1 w-text="2xl sm:3xl md:4xl center" w-font="bold">
           {project.name}
         </h1>
-        <p w-mx="sm:20" w-text="xl sm:2xl" w-m="8">
+        <p w-mx="sm:20" w-text="lg sm:xl md:2xl" w-m="4">
           {project.info}
         </p>
         <ul w-display="flex" w-flex="wrap" w-justify="center" w-mx="sm:20">
@@ -60,26 +62,28 @@ const Project: React.FC<{ project: ProjectModel }> = ({ project }) => {
         </ul>
         <div w-display="flex" w-justify="center">
           <a
-            href={project.source}
             w-p="4"
             w-m="2"
             w-border="2 gray-800 hover:white focus:white"
             w-transform="transition ease-in-out duration-500 "
             w-bg="hover:white focus:white"
-            w-text="white hover:black focus:black"
+            w-text="white center hover:black focus:black"
             w-outline="none"
+            href={project.source}
+            onClick={(e) => e.currentTarget.blur()}
           >
             SOURCE CODE
           </a>
           <a
-            href={project.address}
             w-p="4"
             w-m="2"
             w-border="2 gray-800 hover:white focus:white"
             w-transform="transition ease-in-out duration-500 "
             w-bg="hover:white focus:white"
-            w-text="white hover:black focus:black"
+            w-text="white center hover:black focus:black"
             w-outline="none"
+            href={project.address}
+            onClick={(e) => e.currentTarget.blur()}
           >
             VIEW SITE
           </a>
