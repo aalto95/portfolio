@@ -15,15 +15,16 @@ const About: React.FC = () => {
           w-display="flex"
           w-flex="start col"
           w-items="start"
+          w-gap="3"
           w-w="full sm:4/6"
         >
-          <p className="">Hello there, my name is Pavlov Stanislav.</p>
-          <p className="">
+          <p>Hello there, my name is Pavlov Stanislav.</p>
+          <p>
             Designing and creating responsive websites is some of the most
             fulfilling work I do, and I always look forward to starting a new
             project.
           </p>
-          <p className="">
+          <p>
             In my free time I enjoy learning new technologies, playing computer
             games and helping people online with their web development problems.
           </p>

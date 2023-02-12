@@ -23,7 +23,7 @@ const Project: React.FC<{ project: ProjectModel }> = ({ project }) => {
         href={project.address}
       >
         <img
-          w-w="md:80"
+          w-w="80 sm:90 md:100"
           w-min-w="40"
           w-h="100 sm:120 md:140"
           w-border="rounded-xl"
@@ -65,7 +65,7 @@ const Project: React.FC<{ project: ProjectModel }> = ({ project }) => {
             w-p="4"
             w-m="2"
             w-border="2 gray-800 hover:white focus:white"
-            w-transform="transition ease-in-out duration-500 "
+            w-transform="transition ease-in-out duration-500"
             w-bg="hover:white focus:white"
             w-text="white center hover:black focus:black"
             w-outline="none"

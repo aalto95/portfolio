@@ -9,6 +9,7 @@ const Footer: React.FC = () => {
       w-items="center"
       w-h="32"
       w-bg="black"
+      className="bg-gradient-to-bl from-blue-400 to-orange-500 background-animate"
     >
       <a
         className="flex items-center px-4 h-24"

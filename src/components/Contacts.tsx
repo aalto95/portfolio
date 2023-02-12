@@ -21,7 +21,7 @@ const Contacts: React.FC = () => {
         w-items="center"
         w-flex="col"
         w-border="t-2 darkgray"
-        w-w="full sm:4/6"
+        w-w="full md:4/6"
         w-mx="4"
         w-mt="10"
       >
@@ -33,9 +33,10 @@ const Contacts: React.FC = () => {
           w-justify="center"
           w-items="center"
           w-min-h="14"
-          w-w="full sm:72 md:96"
+          w-w="full md:96"
           w-bg="white focus:gray-200 hover:gray-200"
           w-mb="2"
+          w-transform="duration-500"
           href="https://www.linkedin.com/in/stanislav-pavlov-9776ba206/"
         >
           <p w-mr="2" w-text="black sm">
@@ -48,7 +49,7 @@ const Contacts: React.FC = () => {
           w-justify="center"
           w-items="center"
           w-h="14"
-          w-w="full sm:72 md:96"
+          w-w="full md:96"
           w-mb="2"
           w-bg="white"
           href={"https://t.me/" + telegramNickname}
@@ -63,9 +64,10 @@ const Contacts: React.FC = () => {
           w-justify="center"
           w-items="center"
           w-min-h="14"
-          w-w="full sm:72 md:96"
+          w-w="full md:96"
           w-mb="2"
           w-bg="white focus:gray-200 hover:gray-200"
+          w-transform="duration-500"
           href={"mailto:" + email}
         >
           <p className="mr-2 text-black text-sm" id="mail">
@@ -79,8 +81,9 @@ const Contacts: React.FC = () => {
           w-justify="center"
           w-items="center"
           w-min-h="14"
-          w-w="full sm:72 md:96"
+          w-w="full md:96"
           w-bg="black focus:gray-900 hover:gray-900"
+          w-transform="transition duration-300"
         >
           <p w-mr="2" w-text="white sm">
             COPY EMAIL TO CLIPBOARD

@@ -13,7 +13,7 @@ const Resume: React.FC = () => {
       <section
         w-items="center"
         w-justify="center"
-        w-w="full sm:4/6"
+        w-w="full md:4/6"
         w-mx="4"
         w-flex="col"
         w-border="t-2 solid darkgray"
@@ -29,7 +29,8 @@ const Resume: React.FC = () => {
             w-gap="2"
             w-m="0.5"
             w-p="2"
-            w-border="2 solid darkgray focus:white"
+            w-border="2 solid darkgray focus:white hover:white"
+            w-transform="duration-500"
             href="https://docs.google.com/document/d/1DkuV3yF5Khfrxrt7gbNMhiPgxc-cz9UvSluiw-9vI7E/edit?usp=sharing"
           >
             <p>View online</p>
