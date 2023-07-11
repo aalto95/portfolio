@@ -29,6 +29,7 @@ export default defineConfig({
         "500px": "500px",
         "300px": "300px",
         "90vw": "90vw",
+        "d-screen": "100dvh",
       },
     },
   },

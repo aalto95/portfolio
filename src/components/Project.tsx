@@ -53,7 +53,7 @@ const Project: React.FC<{ project: ProjectModel }> = ({ project }) => {
               w-m="1"
               w-p="2"
               w-list="none"
-              w-bg="gray-800"
+              w-bg="gray-200 dark:gray-800"
               w-border="rounded-xl"
             >
               {tech.name}

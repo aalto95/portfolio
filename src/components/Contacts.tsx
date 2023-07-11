@@ -82,7 +82,7 @@ const Contacts: React.FC = () => {
           w-items="center"
           w-min-h="14"
           w-w="full md:96"
-          w-bg="black focus:gray-900 hover:gray-900"
+          w-bg="gray-200 dark:black focus:gray-900 hover:gray-900"
           w-transform="transition duration-300"
         >
           <p w-mr="2" w-text="white sm">
