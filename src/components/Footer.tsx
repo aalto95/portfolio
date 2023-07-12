@@ -16,7 +16,9 @@ const Footer: React.FC = () => {
         w-border="focus:white focus:2 focus:solid rounded-xl"
         href="https://github.com/aaltoo"
       >
-        <h2 className="text-xl font-bold mr-6">Stas Pavlov</h2>
+        <h3 className="text-xl font-bold mr-6 text-white dark:text-white">
+          Stanislav Pavlov
+        </h3>
         <img src={githubIcon} alt="github-icon" className="w-16" />
       </a>
     </div>
