@@ -31,16 +31,19 @@ const Navbar: React.FC = () => {
   }
 
   function toggleTheme() {
+    const themeColor = document.querySelector('meta[name="theme-color"]')!;
     if (document.documentElement.classList.contains("dark")) {
       dispatch(setLight());
       document.documentElement.classList.remove("dark");
       document.documentElement.classList.add("light");
       localStorage.setItem("theme", "light");
+      themeColor.setAttribute("content", "#f3f4f6");
     } else {
       dispatch(setDark());
       document.documentElement.classList.remove("light");
       document.documentElement.classList.add("dark");
       localStorage.setItem("theme", "dark");
+      themeColor.setAttribute("content", "#1f2937");
     }
   }
 
@@ -107,19 +110,14 @@ const Navbar: React.FC = () => {
         w-h="d-screen"
         w-w="screen"
         w-display="flex flex-col"
-        w-bg="white dark:gray-800"
+        w-bg="gray-100 dark:gray-800"
         w-right={isAsideNavbarOpen ? "0" : "full"}
         w-transform="transition-all duration-350"
         className="fixed md:hidden top-0 z-10"
         w-px="4"
         w-pb="4"
       >
-        <div
-          w-w="full"
-          w-h="15"
-          w-display="flex justify-between items-center"
-          w-bg="gray-100 dark:gray-800"
-        >
+        <div w-w="full" w-h="15" w-display="flex justify-between items-center">
           <h2 className=" text-xl font-bold">Stanislav Pavlov</h2>
           <button onClick={handleBurgerMenuClick}>
             <svg

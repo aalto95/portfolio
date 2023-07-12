@@ -15,14 +15,17 @@ const App = () => {
   const dispatch = useAppDispatch();
   useEffect(() => {
     const theme = localStorage.getItem("theme");
+    const themeColor = document.querySelector('meta[name="theme-color"]')!;
     if (theme === "light") {
       dispatch(setLight());
       document.documentElement.classList.add("light");
       localStorage.setItem("theme", "light");
+      themeColor.setAttribute("content", "#f3f4f6");
     } else {
       dispatch(setDark());
       document.documentElement.classList.add("dark");
       localStorage.setItem("theme", "dark");
+      themeColor.setAttribute("content", "#1f2937");
     }
   }, []);
 
