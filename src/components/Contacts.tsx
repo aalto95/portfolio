@@ -34,7 +34,7 @@ const Contacts: React.FC = () => {
           w-items="center"
           w-min-h="14"
           w-w="full md:96"
-          w-bg="white focus:gray-200 hover:gray-200"
+          w-bg="white focus:gray-100 hover:gray-100"
           w-mb="2"
           w-transform="duration-500"
           href="https://www.linkedin.com/in/stanislav-pavlov-9776ba206/"
@@ -66,7 +66,7 @@ const Contacts: React.FC = () => {
           w-min-h="14"
           w-w="full md:96"
           w-mb="2"
-          w-bg="white focus:gray-200 hover:gray-200"
+          w-bg="white focus:gray-100 hover:gray-100"
           w-transform="duration-500"
           href={"mailto:" + email}
         >
@@ -82,7 +82,7 @@ const Contacts: React.FC = () => {
           w-items="center"
           w-min-h="14"
           w-w="full md:96"
-          w-bg="gray-200 dark:black focus:gray-900 hover:gray-900"
+          w-bg="gray-100 dark:black focus:gray-900 hover:gray-900"
           w-transform="transition duration-300"
         >
           <p w-mr="2" w-text="white sm">
