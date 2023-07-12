@@ -110,7 +110,9 @@ const Navbar: React.FC = () => {
         w-bg="white dark:gray-800"
         w-right={isAsideNavbarOpen ? "0" : "full"}
         w-transform="transition-all duration-350"
-        className="absolute sm:hidden top-0 z-10"
+        className="fixed md:hidden top-0 z-10"
+        w-px="4"
+        w-pb="4"
       >
         <div
           w-w="full"
@@ -118,14 +120,14 @@ const Navbar: React.FC = () => {
           w-display="flex justify-between items-center"
           w-bg="gray-100 dark:gray-800"
         >
-          <h2 className="pl-4 text-xl font-bold">Stanislav Pavlov</h2>
+          <h2 className=" text-xl font-bold">Stanislav Pavlov</h2>
           <button onClick={handleBurgerMenuClick}>
             <svg
               aria-hidden="true"
               fill="none"
               strokeWidth={1.5}
               viewBox="0 0 24 24"
-              className="w-8 h-8 mr-4"
+              className="w-8 h-8"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -136,19 +138,16 @@ const Navbar: React.FC = () => {
             </svg>
           </button>
         </div>
-        <div w-h="full" w-display="flex flex-col justify-between">
-          <nav>
+        <div w-h="full" w-display="flex flex-col justify-between items-start">
+          <nav w-display="flex flex-col gap-4">
             {links.map((link) => {
               return (
                 <a
                   key={link.title}
                   href={link.href}
-                  w-w="sm:1/5"
-                  w-display="flex sm:justify-center items-center"
-                  w-bg="hover:white focus:white"
+                  w-display="flex justify-start items-center"
                   w-text="white hover:black focus:black"
                   w-transform="transition duration-500 ease-in-out"
-                  w-p="4"
                   onClick={closeNavbar}
                 >
                   {link.title}
@@ -156,7 +155,7 @@ const Navbar: React.FC = () => {
               );
             })}
           </nav>
-          <div w-p="4" w-display="flex flex-col gap-4">
+          <div w-display="flex flex-col gap-4">
             <button className="text-white text-left">
               Switch to Russian 🇷🇺
             </button>
