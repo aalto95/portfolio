@@ -1,5 +1,6 @@
 import React from "react";
 import { ProjectModel } from "../models/project.model";
+import LinkButton from "./LinkButton";
 
 const Project: React.FC<{ project: ProjectModel }> = ({ project }) => {
   return (
@@ -61,32 +62,8 @@ const Project: React.FC<{ project: ProjectModel }> = ({ project }) => {
           ))}
         </ul>
         <div w-display="flex" w-justify="center">
-          <a
-            w-p="4"
-            w-m="2"
-            w-border="2 gray-800 hover:gray-800 focus:gray-800 dark:hover:white dark:focus:white"
-            w-transform="transition ease-in-out duration-500"
-            w-bg="hover:gray-800 focus:gray-800 dark:hover:white dark:focus:white"
-            w-text="dark:white center hover:white focus:white dark:hover:black dark:focus:black"
-            w-outline="none"
-            href={project.source}
-            onClick={(e) => e.currentTarget.blur()}
-          >
-            SOURCE CODE
-          </a>
-          <a
-            w-p="4"
-            w-m="2"
-            w-border="2 gray-800 hover:gray-800 focus:gray-800 dark:hover:white dark:focus:white"
-            w-transform="transition ease-in-out duration-500"
-            w-bg="hover:gray-800 focus:gray-800 dark:hover:white dark:focus:white"
-            w-text="dark:white center hover:white focus:white dark:hover:black dark:focus:black"
-            w-outline="none"
-            href={project.address}
-            onClick={(e) => e.currentTarget.blur()}
-          >
-            VIEW SITE
-          </a>
+          <LinkButton href={project.source}>SOURCE CODE</LinkButton>
+          <LinkButton href={project.address}>VIEW SITE</LinkButton>
         </div>
       </div>
     </section>
