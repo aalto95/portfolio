@@ -8,12 +8,22 @@ import Project from "./components/Project";
 import { projects } from "./data/projects.json";
 import { ProjectModel } from "./models/project.model";
 import { useEffect } from "react";
+import { useAppDispatch } from "./app/hooks";
+import { setDark, setLight } from "./features/themeSlice";
 
 const App = () => {
+  const dispatch = useAppDispatch();
   useEffect(() => {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches)
+    const theme = localStorage.getItem("theme");
+    if (theme === "light") {
+      dispatch(setLight());
+      document.documentElement.classList.add("light");
+      localStorage.setItem("theme", "light");
+    } else {
+      dispatch(setDark());
       document.documentElement.classList.add("dark");
-    else document.documentElement.classList.add("light");
+      localStorage.setItem("theme", "dark");
+    }
   }, []);
 
   return (

@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from "react";
+import { useAppDispatch, useAppSelector } from "../app/hooks";
+import { setDark, setLight } from "../features/themeSlice";
 
 const Navbar: React.FC = () => {
+  const dispatch = useAppDispatch();
+  const theme = useAppSelector((state) => state.theme.theme);
+
   const [links] = useState([
     { href: "#projects", title: "projects" },
     { href: "#contacts", title: "contacts" },
@@ -10,7 +15,6 @@ const Navbar: React.FC = () => {
   ]);
 
   const [isAsideNavbarOpen, setIsAsideNavbarOpen] = useState(false);
-  const [theme, setTheme] = useState("dark");
 
   function openNavbar() {
     setIsAsideNavbarOpen(true);
@@ -28,23 +32,17 @@ const Navbar: React.FC = () => {
 
   function toggleTheme() {
     if (document.documentElement.classList.contains("dark")) {
+      dispatch(setLight());
       document.documentElement.classList.remove("dark");
       document.documentElement.classList.add("light");
-      setTheme("light");
+      localStorage.setItem("theme", "light");
     } else {
+      dispatch(setDark());
       document.documentElement.classList.remove("light");
       document.documentElement.classList.add("dark");
-      setTheme("dark");
+      localStorage.setItem("theme", "dark");
     }
   }
-
-  useEffect(() => {
-    if (document.documentElement.classList.contains("dark")) {
-      setTheme("dark");
-    } else {
-      setTheme("light");
-    }
-  }, []);
 
   return (
     <>
